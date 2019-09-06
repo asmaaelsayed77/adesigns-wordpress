@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Raleway:400,700');
+
+/*Typography */
+h1 {
+	font-family: 'Courgette', cursive;
+	color: #142f86; /*blue */
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	color: #3c1767;  /*purple */
+}
+
+h5 {
+	font-family: 'Courgette', cursive;
+	color: #3c1767;  /*purple */
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	font-family: 'Courgette', cursive;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.homepage h1 {
+	font-size: 0.8em;
+}
+
+.btn {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+}
+
+.navbar-brand {
+	font-family: 'Courgette', cursive;
+}
+
+.navbar-nav .nav-item {
+	font-family: 'Courgette', cursive;
+}
+
+.parallax {	
+	position: relative;
+	max-width: 100%;
+	margin: auto;
+	max-height: 50%;
+
+}
+
+.content {
+	position: absolute;
+	bottom: 50%;
+	background: rgba(60, 23, 103, 0.5);  /* purple*/
+	color: white;
+	width: auto%;
+	height: 100%
+	padding: 20px;
+}
+
+.thumbnail {	
+	background-color: #3c1767;
+	width: 100%;
+	height: 100%;
+}
+
+.content .btn {
+	position: absolute;
+	max-width: 100%;
+	margin-left: 50%;
+	bottom: -70%;
+}
+
+ .parallax2 { 
+  background-image: url("../images/color.jpg");  
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { 
+  background-image: url("../images/colors.jpg");  
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.slider_clock {
+	margin-top: 0;
+	margin-bottom: 3rem;
+}
+
+
+div.slider >
+div:not(.nav_indicators):not(.nex_button):not(.prev_button) {
+	border: none;
+}
+
+.web-brand {
+	margin: 100px auto;
+}
+
+.video {
+	margin: 100px auto;
+}
+
+.video iframe {
+	padding-right: 20px;
+}
+
+.card-group {
+	margin: 20px;
+}
+
+/*.card-header a {
+	color: #142f86;
+}*/
+
+.card {
+	margin: 40px;
+}
+
+footer {
+	background-color: #142f86; /* blue*/
+	min-height: 100px;	
+	display: block;
+}
+
+footer img {	
+	max-width: 45px;
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) { 
+	.homepage h1 {
+		font-size: 2rem;
+	}
+
+	.homebtn {
+		font-size: 1rem;
+	}
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {
+	.homepage h1 {
+		font-size: 2rem;
+	}
+
+	.homebtn {
+		font-size: 1rem;
+	}
+}
+
+.post-img {
+	max height: 300px;
+}
+
+.single {
+	padding: 0;
+    padding-left: 0px;
+}
+
+
+
+
+
+
